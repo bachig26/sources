@@ -2,7 +2,7 @@ async function searchResults(keyword) {
     const searchUrl = `https://javhd.icu/?s=${encodeURIComponent(keyword)}`;
     try {
         const response = await fetch(searchUrl);
-        const html = await response.text();
+        const html = await response;
         const results = [];
 
         const itemRegex = /<div[^>]*class="[^"]*item[^"]*"[^>]*>[\s\S]*?<\/div>/gi;
