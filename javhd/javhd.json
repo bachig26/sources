@@ -5,7 +5,7 @@
         "name": "bachig26",
         "icon": "https://avatars.githubusercontent.com/u/96393348?v=4"
     },
-    "version": "1.0.2",
+    "version": "1.0.3",
     "language": "Japanese",
     "streamType": "HLS",
     "quality": "1080p",
@@ -13,6 +13,5 @@
     "searchBaseUrl": "https://javhd.icu/?s=%s",
     "scriptUrl": "https://raw.githubusercontent.com/bachig26/sora-movie-module/refs/heads/main/javhd/javhd.js",
     "asyncJS": true,
-    // "streamAsyncJS": true,
     "type": "movie"
 }
